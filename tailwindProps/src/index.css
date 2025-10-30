@@ -1,0 +1,18 @@
+.parent {
+  display: flex;
+  gap:20px;
+}
+
+.card {
+  width: 300px;
+  border: 2px solid white;
+  text-align:center;
+  border-radius: 10%
+}
+
+.card-img {
+  height: 150px;
+  width: 150px;
+  border:none;
+  border-radius:50%;
+}
