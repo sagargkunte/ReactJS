@@ -1,3 +1,7 @@
+body {
+  color: black;
+}
+
 .parent {
   display: flex;
   gap:20px;
@@ -6,8 +10,9 @@
 .card {
   width: 300px;
   border: 2px solid white;
+  background: white;
   text-align:center;
-  border-radius: 10%
+  border-radius: 10%;
 }
 
 .card-img {
@@ -15,4 +20,8 @@
   width: 150px;
   border:none;
   border-radius:50%;
+}
+
+button {
+  border-radius:5px;
 }
