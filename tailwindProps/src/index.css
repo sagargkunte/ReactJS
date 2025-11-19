@@ -5,6 +5,7 @@ body {
 .parent {
   display: flex;
   gap:20px;
+  /* color:white; */
 }
 
 .card {
