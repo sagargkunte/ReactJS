@@ -1,10 +1,28 @@
-import React from "react";
-
 const App = () => {
   const submitHandleer = (e) => {
     e.preventDefault();
     console.log("form submitted");
   };
+
+  localStorage.clear()  //? This will clear the local storage
+  sessionStorage.clear() //? This will clear the session storage
+
+  localStorage.setItem('user','sagar') //? This will set the local storage in browser in the form of key value pair
+  localStorage.setItem('age','20')
+
+  const user = localStorage.getItem('user');
+  console.log("The User is ",user)
+
+  localStorage.removeItem('user');
+
+
+  const profile = {
+    name:'sagar',
+    age:'20',
+    city:'shimoga'
+  }
+
+  localStorage.setItem('userProfile',JSON.stringify(profile)) //? This is to convert normal object to string 
   return (
     <div
       className="bg-black h-full text-white lg:flex 
