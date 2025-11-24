@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <div>You are in Home page</div>
+        <div style={{fontSize:'50px'}}>You are in Home page</div>
     )
 }
 

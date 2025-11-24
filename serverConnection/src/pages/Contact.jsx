@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <div>You are in Contact page</div>
+        <div style={{fontSize:'50px'}}>You are in Contact page</div>
     )
 }
 
